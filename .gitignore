@@ -1,1 +1,12 @@
+# Virtual Environment
+venv/
+
+# Data Directory
 data/
+
+# IDE Configurations (for VS Code)
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
