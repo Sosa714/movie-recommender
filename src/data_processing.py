@@ -15,3 +15,15 @@ def basic_statistics(df):
 
     print("Head of the dataset:")
     print(df.head())
+
+    print("\nShape of the dataset:", df.shape)
+
+    print("\nGeneral information:")
+    print(df.info())
+
+    print("\nMissing values:")
+    print(df.isnull().sum())
+
+    print("\nUnique values (first 10 columns):")
+    for col in df.columns[:10]:
+        print(f"{col}: {len(df[col].unique())} unique values")
