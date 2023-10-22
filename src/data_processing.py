@@ -1,5 +1,5 @@
 import pandas as pd
-from .utils import get_data_path
+from utils import get_data_path
 
 """
     Loads a CSV file from the data directory and returns a pandas DataFrame.
